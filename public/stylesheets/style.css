@@ -1,0 +1,50 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  margin: 2px;
+  padding: 2px;
+}
+
+table, td, th {
+  border-collapse: collapse;
+  border: 2px solid black;
+  justify-items: center;
+
+}
+
+#level, #details {
+  text-align: center;
+}
+
+#details {
+  background-color: lightgrey;
+  border: 2px solid grey;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.col-6 {
+  display: grid;
+}
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.delete-form button {
+  color: red;
+}
+
+#newSkillName {
+  width: 150px;
+}
+
+#newSkillDesc {
+  width: 300px;
+  height: 50px;
+}
